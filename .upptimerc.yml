@@ -1,5 +1,17 @@
+owner: yixinlin20
+repo: my-status
+
 sites:
-  - name: "萬神殿：維度穩定器"
-    # 這裡填入你剛拿到的網址，格式如下
-    url: http://172.18.0.69:20097/
+  - name: "萬神殿機器人"
+    url: http://172.18.0.69:20097  # <-- 這裡填你 NyankoHost 的資訊
     method: GET
+
+# 以下這些是 Upptime 運作必備的，不要刪掉
+status-website:
+  title: Upptime Status
+  name: Upptime
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/yixinlin20/my-status
